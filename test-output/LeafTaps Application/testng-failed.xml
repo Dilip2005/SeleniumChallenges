@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [LeafTaps Application]" guice-stage="DEVELOPMENT" verbose="5">
+  <test thread-count="5" name="Leads(failed)" verbose="5">
+    <classes>
+      <class name="week4.day2.CreateLead">
+        <methods>
+          <include name="runCreate"/>
+        </methods>
+      </class> <!-- week4.day2.CreateLead -->
+    </classes>
+  </test> <!-- Leads(failed) -->
+</suite> <!-- Failed suite [LeafTaps Application] -->
